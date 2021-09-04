@@ -1,15 +1,27 @@
-import { Box, Flex, useColorModeValue, VisuallyHidden } from '@chakra-ui/react'
+import {
+  Box,
+  Flex,
+  useColorModeValue,
+  VisuallyHidden,
+  Image,
+  Text
+} from '@chakra-ui/react'
 import * as React from 'react'
-import { Logo } from './Logo'
 import { NavContent } from './NavContent'
+import Logo from './flinkLogo.png'
 
 const NavigationBar = () => (
-  <Box minHeight="480px">
-    <Box as="header" height="16" bg={useColorModeValue('white', 'gray.800')} position="relative">
+  <Box minHeight='480px'>
+    <Box
+      as='header'
+      height='16'
+      bg={useColorModeValue('rgb(42,76,178)', 'gray.800')}
+      position='relative'
+    >
       <Box
-        height="100%"
-        maxW="7xl"
-        mx="auto"
+        height='100%'
+        maxW='7xl'
+        mx='auto'
         ps={{
           base: '6',
           md: '8',
@@ -20,16 +32,17 @@ const NavigationBar = () => (
         }}
       >
         <Flex
-          as="nav"
-          aria-label="Site navigation"
-          align="center"
-          justify="space-between"
-          height="100%"
+          w='full'
+          as='nav'
+          aria-label='Site navigation'
+          align='center'
+          justify='space-between'
+          height='100%'
         >
-          <Box as="a" href="#" rel="home">
-            {/* Replace this ⬇️ with your company name */}
-            <VisuallyHidden>Envelope</VisuallyHidden>
-            <Logo h="6" iconColor={useColorModeValue('blue.600', 'blue.200')} />
+          <Box as='a' href='#' rel='home'>
+            <VisuallyHidden>Flink</VisuallyHidden>
+            <Text color='white'>Ride with us! Apply now as a driver</Text>
+            {/* <Image w='8rem' src={Logo} alt='Flink' /> */}
           </Box>
           <NavContent.Desktop
             display={{

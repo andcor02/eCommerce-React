@@ -10,49 +10,35 @@ import {
 } from '@chakra-ui/react'
 import * as React from 'react'
 import { HiOutlineMenu, HiX } from 'react-icons/hi'
-import { NavLink } from './NavLink'
+import { NavLink } from './NavLink' 
 import { NavList } from './NavList'
 import { NavListItem } from './NavListItem'
-const links = [
-  {
-    label: 'Showcase',
-    href: '#',
-  },
-  {
-    label: 'Reviews',
-    href: '#',
-  },
-  {
-    label: 'Features',
-    href: '#',
-  },
-  {
-    label: 'Resources',
-    href: '#',
-  },
-]
+const links = []
 
 const MobileNavContent = (props) => {
   const { isOpen, onToggle } = useDisclosure()
   return (
     <Box {...props}>
       <Center
-        as="button"
-        p="2"
-        fontSize="2xl"
+        as='button'
+        p='2'
+        fontSize='2xl'
         color={useColorModeValue('gray.600', 'gray.400')}
         onClick={onToggle}
       >
         {isOpen ? <HiX /> : <HiOutlineMenu />}
       </Center>
       <NavList
-        pos="absolute"
-        insetX="0"
-        bg="blue.600"
-        top="64px"
+        pos='absolute'
+        insetX='0'
+        bg='blue.600'
+        top='64px'
         animate={isOpen ? 'enter' : 'exit'}
       >
-        <Stack spacing="0" divider={<StackDivider borderColor="whiteAlpha.200" />}>
+        <Stack
+          spacing='0'
+          divider={<StackDivider borderColor='whiteAlpha.200' />}
+        >
           {links.map((link, index) => (
             <NavListItem key={index}>
               <NavLink.Mobile href={link.href}>{link.label}</NavLink.Mobile>
@@ -63,7 +49,7 @@ const MobileNavContent = (props) => {
               flex: '1',
             }}
           >
-            <NavLink.Mobile href="#">Get started</NavLink.Mobile>
+            <NavLink.Mobile href='#'>Get started</NavLink.Mobile>
           </NavListItem>
         </Stack>
       </NavList>
@@ -73,14 +59,14 @@ const MobileNavContent = (props) => {
 
 const DesktopNavContent = (props) => {
   return (
-    <HStack spacing="8" align="stretch" {...props}>
+    <HStack id='asdasd' spacing='8' align='stretch' {...props}>
       {links.map((link, index) => (
         <NavLink.Desktop key={index} href={link.href}>
           {link.label}
         </NavLink.Desktop>
       ))}
-      <Button height="16" rounded="0" colorScheme="blue" minW="10rem">
-        Get started
+      <Button height='10' rounded='20' bg='white' minW='7rem'>
+        Apply
       </Button>
     </HStack>
   )
