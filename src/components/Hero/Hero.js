@@ -6,12 +6,14 @@ import {
   Image,
   Text,
   Heading,
-  HStack
+  HStack,
+  Stack,
 } from '@chakra-ui/react'
 import * as React from 'react'
 import Logo from '../logo.png'
 import AppStore from '../appStore.png'
 import GoogleStore from '../googleStore.png'
+import Splash from '../DES_1135_DE-eng-01.png'
 
 const Hero = () => {
   return (
@@ -24,7 +26,7 @@ const Hero = () => {
       pl='5rem'
       bg='rgba(237, 107, 167)'
     >
-      <Box>
+      <Stack position='relative' direction='row'>
         <Box w='50%'>
           <Image mb='80px' w='7rem' src={Logo} alt='Flink' />
           <Heading color='white' mb='40px' as='h1' size='3xl'>
@@ -36,11 +38,12 @@ const Hero = () => {
             Within 10 minutes and at supermarket prices.
           </Text>
           <HStack mt='80px' align='stretch' spacing='2rem'>
-            <Image w='15rem' src={AppStore} alt='AppStore' />
-            <Image w='15rem' src={GoogleStore} alt='GoogleStore' />
+            <Image w='14rem' src={AppStore} alt='AppStore' />
+            <Image w='14rem' src={GoogleStore} alt='GoogleStore' />
           </HStack>
         </Box>
-      </Box>
+        <Image w='50rem' position='absolute' right='-13rem' top='1.4rem' src={Splash} alt='Splash' />
+      </Stack>
     </Box>
   )
 }
