@@ -11,7 +11,7 @@ import { NavContent } from './NavContent'
 import Logo from './flinkLogo.png'
 
 const NavigationBar = () => (
-  <Box minHeight='480px'>
+  <Box >
     <Box
       as='header'
       height='16'
