@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <Box
       w='full'
-      h='50rem'
+      h='45rem'
       pt='5rem'
       pb='2rem'
       pr='5rem'
