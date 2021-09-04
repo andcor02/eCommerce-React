@@ -9,7 +9,6 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react'
-import { Logo } from './Logo'
 import NavigationBar from './components/Nav/NavigationBar'
 import Hero from './components/Hero/Hero'
 

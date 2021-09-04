@@ -6,9 +6,12 @@ import {
   Image,
   Text,
   Heading,
+  HStack
 } from '@chakra-ui/react'
 import * as React from 'react'
 import Logo from '../logo.png'
+import AppStore from '../appStore.png'
+import GoogleStore from '../googleStore.png'
 
 const Hero = () => {
   return (
@@ -32,6 +35,10 @@ const Hero = () => {
             fruit and vegetables of the highest quality directly to your home.
             Within 10 minutes and at supermarket prices.
           </Text>
+          <HStack mt='80px' align='stretch' spacing='2rem'>
+            <Image w='15rem' src={AppStore} alt='AppStore' />
+            <Image w='15rem' src={GoogleStore} alt='GoogleStore' />
+          </HStack>
         </Box>
       </Box>
     </Box>
