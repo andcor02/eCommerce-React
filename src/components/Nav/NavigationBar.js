@@ -8,7 +8,6 @@ import {
 } from '@chakra-ui/react'
 import * as React from 'react'
 import { NavContent } from './NavContent'
-import Logo from './flinkLogo.png'
 
 const NavigationBar = () => (
   <Box >
@@ -42,7 +41,6 @@ const NavigationBar = () => (
           <Box as='a' href='#' rel='home'>
             <VisuallyHidden>Flink</VisuallyHidden>
             <Text color='white'>Ride with us! Apply now as a driver</Text>
-            {/* <Image w='8rem' src={Logo} alt='Flink' /> */}
           </Box>
           <NavContent.Desktop
             display={{
