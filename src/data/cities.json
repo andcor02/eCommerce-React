@@ -23,6 +23,118 @@
     {
       "name": "Krefeld",
       "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Stuttgart",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/4MCA9XqkoycupwUIU5P9OD/cf2ffa913c7ee40746734088620533c0/MAPS_NURNBERG_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Essen",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/13gTPdvBzydw4CIi7ln4SB/8409897596a9575af26194967e41ba5b/MAPS_HAMBURG_WANDSBECK_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Dortmund",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/d1ZXIm9sjbbWp79k5ErSK/ba58e25080cb17abf3f6fe578afd099c/F_offenbach.png?w=928&fm=jpg"
+    },
+    {
+      "name": "Darmstadt",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/6UDHxOgTQXQd5Gw5qx9Yer/31fb6391fc9f478e216ee4ce3eeb663c/MAINZ_GREY.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Moers",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/wCSZgf6vuhfd7zFs4b0GN/d4ece10f25bce721c101183ff0ee0d3c/FRANKFURT_ALL_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Ludwigshafen",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Oberhausen",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/4MCA9XqkoycupwUIU5P9OD/cf2ffa913c7ee40746734088620533c0/MAPS_NURNBERG_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Kiel",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/13gTPdvBzydw4CIi7ln4SB/8409897596a9575af26194967e41ba5b/MAPS_HAMBURG_WANDSBECK_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Erlangen",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/d1ZXIm9sjbbWp79k5ErSK/ba58e25080cb17abf3f6fe578afd099c/F_offenbach.png?w=928&fm=jpg"
+    },
+    {
+      "name": "Karlsruhe",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/6UDHxOgTQXQd5Gw5qx9Yer/31fb6391fc9f478e216ee4ce3eeb663c/MAINZ_GREY.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Wuppertal",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/wCSZgf6vuhfd7zFs4b0GN/d4ece10f25bce721c101183ff0ee0d3c/FRANKFURT_ALL_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Düsseldorf",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Nuremberg",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/4MCA9XqkoycupwUIU5P9OD/cf2ffa913c7ee40746734088620533c0/MAPS_NURNBERG_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Bonn",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/13gTPdvBzydw4CIi7ln4SB/8409897596a9575af26194967e41ba5b/MAPS_HAMBURG_WANDSBECK_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Dresden",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/d1ZXIm9sjbbWp79k5ErSK/ba58e25080cb17abf3f6fe578afd099c/F_offenbach.png?w=928&fm=jpg"
+    },
+    {
+      "name": "Cologne",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/6UDHxOgTQXQd5Gw5qx9Yer/31fb6391fc9f478e216ee4ce3eeb663c/MAINZ_GREY.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Munich",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/wCSZgf6vuhfd7zFs4b0GN/d4ece10f25bce721c101183ff0ee0d3c/FRANKFURT_ALL_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Wiesbaden",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Neuss",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/d1ZXIm9sjbbWp79k5ErSK/ba58e25080cb17abf3f6fe578afd099c/F_offenbach.png?w=928&fm=jpg"
+    },
+    {
+      "name": "Duisburg",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/6UDHxOgTQXQd5Gw5qx9Yer/31fb6391fc9f478e216ee4ce3eeb663c/MAINZ_GREY.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Bottrop",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/wCSZgf6vuhfd7zFs4b0GN/d4ece10f25bce721c101183ff0ee0d3c/FRANKFURT_ALL_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Mönchengladbach",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Leipzig",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/wCSZgf6vuhfd7zFs4b0GN/d4ece10f25bce721c101183ff0ee0d3c/FRANKFURT_ALL_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Aachen",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Bochum",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/d1ZXIm9sjbbWp79k5ErSK/ba58e25080cb17abf3f6fe578afd099c/F_offenbach.png?w=928&fm=jpg"
+    },
+    {
+      "name": "Heilbronn",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/6UDHxOgTQXQd5Gw5qx9Yer/31fb6391fc9f478e216ee4ce3eeb663c/MAINZ_GREY.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Mannheim",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/wCSZgf6vuhfd7zFs4b0GN/d4ece10f25bce721c101183ff0ee0d3c/FRANKFURT_ALL_POLYGON.jpg?w=928&fm=jpg"
+    },
+    {
+      "name": "Regensburg",
+      "url": "https://images.ctfassets.net/1d3t0zyvn9za/3hulWism4a9pffyGhzHZS2/716688db94d808e468d284c41de63867/krefeld_polygon.jpg?w=928&fm=jpg"
     }
   ]
 }
