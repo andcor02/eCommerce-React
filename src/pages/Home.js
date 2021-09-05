@@ -26,7 +26,9 @@ const Home = () => {
     <>
       <Hero />
       <Box p='5rem'>
-        <Heading mb='2rem'>Explore our cities</Heading>
+        <Heading as='h2' size='xl' mb='2rem'>
+          Explore our cities
+        </Heading>
         <Stack direction='row'>
           <Box w='50%'>
             {cities.map((items) => {
@@ -34,7 +36,6 @@ const Home = () => {
                 <Button
                   size='lg'
                   variant='outline'
-                  as='flex'
                   mx='2'
                   my='2'
                   onClick={() => setSelectedCity(items)}
@@ -45,6 +46,12 @@ const Home = () => {
                 </Button>
               )
             })}
+            <Flex mx='2' mt='4'>
+              <Text fontSize='lg'>City not listed?&nbsp;</Text>
+              <Text fontSize='lg' color='rgba(237, 107, 167)' fontWeight='bold'>
+                Signup for our waitlist
+              </Text>
+            </Flex>
           </Box>
           <Box>
             <Image w='40rem' src={selectedCity.url} alt='Map' />
