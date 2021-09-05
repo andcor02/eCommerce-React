@@ -8,10 +8,12 @@ import {
   Spacer,
   Image,
   useMediaQuery,
+  Link,
   SimpleGrid,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Hero from '.././components/Hero/Hero'
+import Footer from '.././components/Footer/Footer'
 import data from '.././data/cities.json'
 
 const Home = () => {
@@ -56,11 +58,17 @@ const Home = () => {
         </Box>
         <Flex p='1rem'>
           <Text fontSize='lg'>City not listed?&nbsp;</Text>
-          <Text fontSize='lg' color='rgba(237, 107, 167)' fontWeight='bold'>
+          <Link
+            href='https://goflink.typeform.com/to/LWOemigw'
+            fontSize='lg'
+            color='rgba(237, 107, 167)'
+            fontWeight='bold'
+          >
             Signup for our waitlist
-          </Text>
+          </Link>
         </Flex>
       </SimpleGrid>
+      <Footer />
     </>
   )
 }

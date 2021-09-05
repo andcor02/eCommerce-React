@@ -2,18 +2,18 @@ import {
   Box,
   Flex,
   useColorModeValue,
-  VisuallyHidden,
-  Image,
-  Text
+  Spacer,
+  Link,
+  Button,
+  Text,
 } from '@chakra-ui/react'
 import * as React from 'react'
-import { NavContent } from './NavContent'
 
 const NavigationBar = () => (
-  <Box >
+  <Box>
     <Box
       as='header'
-      height='16'
+      height='20'
       bg={useColorModeValue('rgb(42,76,178)', 'gray.800')}
       position='relative'
     >
@@ -38,22 +38,15 @@ const NavigationBar = () => (
           justify='space-between'
           height='100%'
         >
-          <Box as='a' href='#' rel='home'>
-            <VisuallyHidden>Flink</VisuallyHidden>
+          <Flex w='full' align='center'>
             <Text color='white'>Ride with us! Apply now as a driver</Text>
-          </Box>
-          <NavContent.Desktop
-            display={{
-              base: 'none',
-              md: 'flex',
-            }}
-          />
-          <NavContent.Mobile
-            display={{
-              base: 'flex',
-              md: 'none',
-            }}
-          />
+            <Spacer />
+            <Button size='lg' mx='5' rounded='20'>
+              <Link href='https://riders.goflink.com/join/?utm_source=internaltransfer'>
+                Apply
+              </Link>
+            </Button>
+          </Flex>
         </Flex>
       </Box>
     </Box>
