@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is an example eCommerce landing page.
+
+The project is styled using [Chakra UI](https://chakra-ui.com).
+
+The project is routed using react-router.
+
+The project is built to be ultra responsive with viewport changes.
+
 ## Available Scripts
 
 In the project directory, you can run:
