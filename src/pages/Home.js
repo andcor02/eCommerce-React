@@ -29,38 +29,46 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Stack p='5rem'>
-        <Heading w='full' as='h2' size='xl' mb='2rem'>
-          Explore our cities
-        </Heading>
-        <Flex justify='center'>
-          <Image src={selectedCity.url} alt='Map' />
-        </Flex>
-        <SimpleGrid columns='2'>
-          {cities.map((items) => {
-            return (
-              <Button
-                overflow='scroll'
-                variant='outline'
-                mx='2'
-                my='2'
-                onClick={() => setSelectedCity(items)}
-              >
-                <Text mx='4'>{items.name}</Text>
-                <Spacer />
-                <ChevronRightIcon />
-              </Button>
-            )
-          })}
-        </SimpleGrid>
-
-        <Flex mx='2' mt='4'>
+      <SimpleGrid
+        columns={isLargerThan1100 ? '2' : '0'}
+        rows={isLargerThan1100 ? '0' : '2'}
+        p='5rem'
+        spacing={isLargerThan1100 ? '20' : '5'}
+      >
+        <Box>
+          <Heading w='full' as='h2' mb='5' size='xl'>
+            Explore our cities
+          </Heading>
+          <SimpleGrid columns='2'>
+            {cities.map((items) => {
+              return (
+                <Button
+                  overflow='scroll'
+                  variant='outline'
+                  mx='2'
+                  my='2'
+                  onClick={() => setSelectedCity(items)}
+                >
+                  <Text mx='4'>{items.name}</Text>
+                  <Spacer />
+                  <ChevronRightIcon />
+                </Button>
+              )
+            })}
+          </SimpleGrid>
+        </Box>
+        <Box>
+          <Flex mt={isLargerThan1100 ? '5rem' : '0'} justify='center'>
+            <Image src={selectedCity.url} alt='Map' />
+          </Flex>
+        </Box>
+        <Flex p='1rem'>
           <Text fontSize='lg'>City not listed?&nbsp;</Text>
           <Text fontSize='lg' color='rgba(237, 107, 167)' fontWeight='bold'>
             Signup for our waitlist
           </Text>
         </Flex>
-      </Stack>
+      </SimpleGrid>
     </>
   )
 }
