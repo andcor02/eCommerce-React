@@ -12,8 +12,10 @@ import {
   Button,
   Stack,
   HStack,
+  Spacer,
   Image,
   useMediaQuery,
+  SimpleGrid,
   theme,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -27,26 +29,30 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Stack direction='column' p='5rem'>
+      <Stack p='5rem'>
         <Heading w='full' as='h2' size='xl' mb='2rem'>
           Explore our cities
         </Heading>
-        <Image w='40rem' src={selectedCity.url} alt='Map' />
-        {cities.map((items) => {
-          return (
-            <Button
-              size='lg'
-              variant='outline'
-              mx='2'
-              my='2'
-              onClick={() => setSelectedCity(items)}
-              w='20rem'
-            >
-              <Text left='4'>{items.name}</Text>
-              <ChevronRightIcon right='4' />
-            </Button>
-          )
-        })}
+        <Flex justify='center'>
+          <Image src={selectedCity.url} alt='Map' />
+        </Flex>
+        <SimpleGrid columns='2'>
+          {cities.map((items) => {
+            return (
+              <Button
+                overflow='scroll'
+                variant='outline'
+                mx='2'
+                my='2'
+                onClick={() => setSelectedCity(items)}
+              >
+                <Text mx='4'>{items.name}</Text>
+                <Spacer />
+                <ChevronRightIcon />
+              </Button>
+            )
+          })}
+        </SimpleGrid>
 
         <Flex mx='2' mt='4'>
           <Text fontSize='lg'>City not listed?&nbsp;</Text>
