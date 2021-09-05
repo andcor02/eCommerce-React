@@ -1,4 +1,4 @@
-This project is an example eCommerce landing page bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project is an example eCommerce landing page bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 - The project is styled using [Chakra UI](https://chakra-ui.com).
 
