@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/andcor02/eCommerce-React/static/js/main.21d7650b.chunk.js",
+    "main.js.map": "/andcor02/eCommerce-React/static/js/main.21d7650b.chunk.js.map",
+    "runtime-main.js": "/andcor02/eCommerce-React/static/js/runtime-main.54334e64.js",
+    "runtime-main.js.map": "/andcor02/eCommerce-React/static/js/runtime-main.54334e64.js.map",
+    "static/js/2.8c2e77df.chunk.js": "/andcor02/eCommerce-React/static/js/2.8c2e77df.chunk.js",
+    "static/js/2.8c2e77df.chunk.js.map": "/andcor02/eCommerce-React/static/js/2.8c2e77df.chunk.js.map",
+    "static/js/3.e2f3e701.chunk.js": "/andcor02/eCommerce-React/static/js/3.e2f3e701.chunk.js",
+    "static/js/3.e2f3e701.chunk.js.map": "/andcor02/eCommerce-React/static/js/3.e2f3e701.chunk.js.map",
+    "index.html": "/andcor02/eCommerce-React/index.html",
+    "static/js/2.8c2e77df.chunk.js.LICENSE.txt": "/andcor02/eCommerce-React/static/js/2.8c2e77df.chunk.js.LICENSE.txt",
+    "static/media/DES_1135_DE-eng-01.f3a9fedf.png": "/andcor02/eCommerce-React/static/media/DES_1135_DE-eng-01.f3a9fedf.png",
+    "static/media/logo.96dc6604.png": "/andcor02/eCommerce-React/static/media/logo.96dc6604.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54334e64.js",
+    "static/js/2.8c2e77df.chunk.js",
+    "static/js/main.21d7650b.chunk.js"
+  ]
+}
