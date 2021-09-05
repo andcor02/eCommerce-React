@@ -37,7 +37,7 @@ const Home = () => {
             {cities.map((items) => {
               return (
                 <Button
-                  background={items === selectedCity ? 'rgb(244,244,244)' : ''}
+                  background={items === selectedCity ? 'gray.100' : ''}
                   overflow='scroll'
                   variant='outline'
                   mx={isLargerThan1100 ? '5' : '1'}
