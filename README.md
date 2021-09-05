@@ -6,7 +6,7 @@ This project is an example eCommerce landing page bootstrapped with [Create Reac
 
 - The project is built to be ultra responsive with viewport changes.
 
-- The project is deployed [here](https://andcor02.github.io/eCommerce-React/)
+- **The project is deployed [here](https://andcor02.github.io/eCommerce-React/)**
 
 ## Available Scripts
 
