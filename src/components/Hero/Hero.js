@@ -25,8 +25,9 @@ const Hero = () => {
       pr='5rem'
       pl='5rem'
       bg='rgba(237, 107, 167)'
+      overflow='hidden'
     >
-      <Stack position='relative' direction='row' overflow='hidden'>
+      <Stack position='relative' direction='row' >
         <Box w='50%'>
           <Image mb='80px' w='7rem' src={Logo} alt='Flink' />
           <Heading color='white' mb='40px' as='h1' size='3xl'>
