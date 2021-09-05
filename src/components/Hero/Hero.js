@@ -5,6 +5,7 @@ import {
   Heading,
   HStack,
   Stack,
+  Link,
   useMediaQuery,
 } from '@chakra-ui/react'
 import * as React from 'react'
@@ -56,8 +57,12 @@ const Hero = () => {
             spacing='2rem'
             pb='2rem'
           >
-            <Image h={['3rem', '4rem']} src={AppStore} alt='AppStore' />
-            <Image h={['3rem', '4rem']} src={GoogleStore} alt='GoogleStore' />
+            <Link href='https://app.adjust.com/rq7o7a6'>
+              <Image h={['3rem', '4rem']} src={AppStore} alt='AppStore' />
+            </Link>
+            <Link href='https://app.adjust.com/rq7o7a6'>
+              <Image h={['3rem', '4rem']} src={GoogleStore} alt='GoogleStore' />
+            </Link>
           </HStack>
         </Stack>
         <Flex justify={isLargerThan1100 ? '' : 'center'}>
