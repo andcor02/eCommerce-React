@@ -11,6 +11,7 @@ import {
   Heading,
   Button,
   Stack,
+  HStack,
   Image,
   theme,
 } from '@chakra-ui/react'
@@ -25,29 +26,28 @@ const Home = () => {
     <>
       <Hero />
       <Box p='5rem'>
-        <Stack direction='column'>
-          <Box>
-            <Heading>Explore our cities</Heading>
-            <Stack>
-              {cities.map((items) => {
-                return (
-                  <Button onClick={() => setSelectedCity(items)} minW='10rem'>
-                    <Text position='absolute' left='4'>
-                      {items.name}
-                    </Text>
-                    <ChevronRightIcon position='absolute' right='4' />
-                  </Button>
-                )
-              })}
-            </Stack>
+        <Heading mb='2rem'>Explore our cities</Heading>
+        <Stack direction='row'>
+          <Box w='50%'>
+            {cities.map((items) => {
+              return (
+                <Button
+                  size='lg'
+                  variant='outline'
+                  as='flex'
+                  mx='2'
+                  my='2'
+                  onClick={() => setSelectedCity(items)}
+                  w='20rem'
+                >
+                  <Text left='4'>{items.name}</Text>
+                  <ChevronRightIcon right='4' />
+                </Button>
+              )
+            })}
           </Box>
           <Box>
-            <Image
-              w='25rem'
-              position='absolute'
-              src={selectedCity.url}
-              alt='Map'
-            />
+            <Image w='40rem' src={selectedCity.url} alt='Map' />
           </Box>
         </Stack>
       </Box>
