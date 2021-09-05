@@ -1,14 +1,6 @@
 import React from 'react'
 import {
   ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  Heading,
-  Stack,
   theme,
 } from '@chakra-ui/react'
 import {
