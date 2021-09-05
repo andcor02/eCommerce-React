@@ -10,7 +10,7 @@ function App() {
       <NavigationBar />
       <Router>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/eCommerce-React'>
             <Home />
           </Route>
         </Switch>
