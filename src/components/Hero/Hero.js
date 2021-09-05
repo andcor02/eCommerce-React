@@ -63,15 +63,16 @@ const Hero = () => {
             <Image h={['3rem', '4rem']} src={GoogleStore} alt='GoogleStore' />
           </HStack>
         </Stack>
-
-        <Image
-          w='50rem'
-          position={isLargerThan1100 ? 'absolute' : ''}
-          right='-13rem'
-          top='1.4rem'
-          src={Splash}
-          alt='Splash'
-        />
+        <Flex justify={isLargerThan1100 ? '' : 'center'}>
+          <Image
+            w='50rem'
+            position={isLargerThan1100 ? 'absolute' : ''}
+            right='-13rem'
+            top='1.4rem'
+            src={Splash}
+            alt='Splash'
+          />
+        </Flex>
       </Stack>
     </Flex>
   )
