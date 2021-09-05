@@ -1,8 +1,5 @@
 import {
-  Box,
   Flex,
-  useColorModeValue,
-  VisuallyHidden,
   Image,
   Text,
   Heading,

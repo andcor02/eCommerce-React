@@ -7,10 +7,11 @@ import {
   StackDivider,
   useColorModeValue,
   useDisclosure,
+  Link,
 } from '@chakra-ui/react'
 import * as React from 'react'
 import { HiOutlineMenu, HiX } from 'react-icons/hi'
-import { NavLink } from './NavLink' 
+import { NavLink } from './NavLink'
 import { NavList } from './NavList'
 import { NavListItem } from './NavListItem'
 const links = []
@@ -66,7 +67,9 @@ const DesktopNavContent = (props) => {
         </NavLink.Desktop>
       ))}
       <Button height='10' rounded='20' bg='white' minW='7rem'>
-        Apply
+        <Link href='https://riders.goflink.com/join/?utm_source=internaltransfer'>
+          Apply
+        </Link>
       </Button>
     </HStack>
   )

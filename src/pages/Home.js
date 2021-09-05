@@ -1,22 +1,14 @@
 import React, { useState } from 'react'
 import {
-  ChakraProvider,
   Box,
   Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
   Flex,
   Heading,
   Button,
-  Stack,
-  HStack,
   Spacer,
   Image,
   useMediaQuery,
   SimpleGrid,
-  theme,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Hero from '.././components/Hero/Hero'
