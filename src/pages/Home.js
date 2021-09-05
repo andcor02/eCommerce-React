@@ -26,7 +26,7 @@ const Home = () => {
       <SimpleGrid
         columns={isLargerThan1100 ? '2' : '0'}
         rows={isLargerThan1100 ? '0' : '2'}
-        p='5rem'
+        p={isLargerThan1100 ? '5rem' : '1rem'}
         spacing={isLargerThan1100 ? '20' : '5'}
       >
         <Box>
@@ -39,11 +39,11 @@ const Home = () => {
                 <Button
                   overflow='scroll'
                   variant='outline'
-                  mx='2'
-                  my='2'
+                  mx={isLargerThan1100 ? '5' : '1'}
+                  my={isLargerThan1100 ? '2' : '1'}
                   onClick={() => setSelectedCity(items)}
                 >
-                  <Text mx='4'>{items.name}</Text>
+                  <Text mx='0'>{items.name}</Text>
                   <Spacer />
                   <ChevronRightIcon />
                 </Button>
