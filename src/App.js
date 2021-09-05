@@ -9,11 +9,9 @@ function App() {
     <ChakraProvider theme={theme}>
       <NavigationBar />
       <Router>
-        <Switch>
-          <Route exact path='/eCommerce-React'>
-            <Home />
-          </Route>
-        </Switch>
+        <Route path='/eCommerce-React'>
+          <Home />
+        </Route>
       </Router>
     </ChakraProvider>
   )
